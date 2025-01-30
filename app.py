@@ -62,7 +62,7 @@ def logout():
     st.rerun()
 
 def main():
-    st.set_page_config(page_title="AdgamaDigital", layout="centered", page_icon="https://github.com/anmol-varshney/FlipkartOrders/blob/main/company_logo.png?raw=true")
+    st.set_page_config(page_title="Flipkart Orders", layout="centered", page_icon="https://github.com/anmol-varshney/FlipkartOrders/blob/main/company_logo.png?raw=true")
     
     # Inject custom CSS for a professional look and fixed buttons
     st.markdown(
