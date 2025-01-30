@@ -37,8 +37,8 @@ def login():
     # Centering the logo using Streamlit's columns
     col1, col2, col3 = st.columns([1, 2, 1])  # Creates three columns, middle column is wider
     
-    with col2:  # Place image in the center column
-        st.image("https://github.com/anmol-varshney/FlipkartOrders/blob/main/company_logo.png?raw=true")
+    # with col2:  # Place image in the center column
+        # st.image("https://github.com/anmol-varshney/FlipkartOrders/blob/main/company_logo.png?raw=true")
 
     st.write(" ")
     st.write(" ")
@@ -232,17 +232,17 @@ def main():
 
     # Sidebar for user inputs
     with st.sidebar:
-        st.markdown(
-            """
-            <div class="nav-logo">
-                <img src="https://github.com/anmol-varshney/FlipkartOrders/blob/main/company_logo.png?raw=true" width="100"/>
-            </div>
-            """,
-            unsafe_allow_html=True
-        )
-        st.write(" ")
-        st.write(" ")
-        st.write(" ")
+        # st.markdown(
+        #     """
+        #     <div class="nav-logo">
+        #         <img src="https://github.com/anmol-varshney/FlipkartOrders/blob/main/company_logo.png?raw=true" width="100"/>
+        #     </div>
+        #     """,
+        #     unsafe_allow_html=True
+        # # )
+        # st.write(" ")
+        # st.write(" ")
+        # st.write(" ")
         if "username" in st.session_state:
             st.markdown(
                 f"""
