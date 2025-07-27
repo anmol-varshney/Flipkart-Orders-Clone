@@ -7,8 +7,8 @@ from datetime import date
 # Define API details
 URL = "https://affiliate-api.flipkart.net/affiliate/report/orders/detail/json"
 HEADERS = {
-    "Fk-Affiliate-Id": "bh7162",
-    "Fk-Affiliate-Token": "1e3be35caea748378cdd98e720ea06b3"
+    "Fk-Affiliate-Id": st.secrets["FLIPKART_AFFILIATE_ID"],
+    "Fk-Affiliate-Token": st.secrets["FLIPKART_AFFILIATE_TOKEN"]
 }
 
 # Load credentials from JSON file
